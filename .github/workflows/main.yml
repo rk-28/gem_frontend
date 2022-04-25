@@ -24,4 +24,4 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm install
     - run: CI=false npm run build
-      working-directory: /var/www/html/gem_backend
+      working-directory: /var/www/html/gem_frontend
