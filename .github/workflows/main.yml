@@ -22,5 +22,6 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
-    - run: npm install
-    - run: CI=false npm run build
+    - run: |
+        working-directory: /var/www/html/gem_frontend
+        touch test1.txt
