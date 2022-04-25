@@ -23,4 +23,5 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: |
-        touch test1.txt
+        npm install
+        CI=false npm run build
