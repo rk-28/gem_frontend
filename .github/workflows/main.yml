@@ -30,7 +30,7 @@ jobs:
           host: ${{ secrets.SSH_HOST }} #public IP
           username: ${{ secrets.SSH_USERNAME }}
           password: ${{ secrets.SSH_PASSWORD }}
-          script: |
+          run: |
             cd /var/www/html/gem_frontend
             sudo npm install
 	    sudo npm run build
