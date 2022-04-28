@@ -32,5 +32,5 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         script: |
           cd /var/www/html/gem_frontend
-          npm install --no-optional
-          npm run build
+          sudo npm install --no-optional
+          sudo npm run build
