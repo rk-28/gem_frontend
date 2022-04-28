@@ -32,5 +32,6 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         script: |
           cd /var/www/html/gem_frontend
+          whoami
           npm install
           npm run build
