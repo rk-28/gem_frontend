@@ -30,6 +30,5 @@ jobs:
           host: ${{ secrets.SERVER_IP }} #public IP
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
-	  script: |
-	  	cd /var/www/html/gem_frontent/
-		touch testtt.txt
+	script: |
+	  touch texttt.txt
