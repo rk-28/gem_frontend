@@ -31,6 +31,4 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         script: |
-          cd /var/www/html/gem_frontend
-          npm install
-          npm run build
+          pwd
