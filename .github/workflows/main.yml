@@ -32,5 +32,4 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         script: |
           cd /var/www/html/gem_frontend
-          sudo npm install --no-optional
-          sudo npm run build
+          mkdir touch
