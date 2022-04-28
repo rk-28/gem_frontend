@@ -4,12 +4,14 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main  ]
+ # pull_request:
+   # branches: [ main ]
 
 jobs:
   build:
 
-    runs-on: self-hosted
+    runs-on: ubuntu-18.04
 
     strategy:
       matrix:
@@ -19,9 +21,16 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v2
+      uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: npm install
-    - run: CI=false npm run build
-      working-directory: /var/www/html/gem_frontend
+    - name: Deploy NodeJS app
+      uses: appleboy/ssh-action@v0.1.2
+      with:
+          host: ${{ secrets.SSH_HOST }} #public IP
+          username: ${{ secrets.SSH_USERNAME }}
+          password: ${{ secrets.SSH_PASSWORD }}
+          script: |
+            cd /var/www/Reactnative/gems_backend
+            sudo npm install
+			      sudo npm run build
