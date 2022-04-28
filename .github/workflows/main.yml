@@ -31,5 +31,6 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         script: |
-          cd /var/www/html/
-          touch test1000.txt
+          cd /var/www/html/gem_frontend
+          sudo npm install
+          sudo npm run build
