@@ -30,5 +30,5 @@ jobs:
       	  host: ${{ secrets.SERVER_IP }} #public IP
 	  username: ${{ secrets.USERNAME }}
 	  password: ${{ secrets.PASSWORD }}
-	script: |
-	  touch texttt.txt
+	  script: |
+	    touch texttt.txt
