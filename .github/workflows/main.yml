@@ -31,5 +31,5 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }}
           password: ${{ secrets.SSH_PASSWORD }}
 	  script: |
-	     cd /var/www/html/gem_frontend
-	     touch text.txt
+	  	cd /var/www/html/gem_frontend
+	     	touch text.txt
