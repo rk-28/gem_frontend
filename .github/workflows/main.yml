@@ -27,8 +27,8 @@ jobs:
     - name: Deploy NodeJS app
       uses: appleboy/ssh-action@v0.1.2
       with:
-      	  host: ${{ secrets.SERVER_IP }} #public IP
-	  username: ${{ secrets.USERNAME }}
-	  password: ${{ secrets.PASSWORD }}
-	  script: |
-	    touch texttt.txt
+        host: ${{ secrets.SERVER_IP }}
+	username: ${{ secrets.USERNAME }}
+	password: ${{ secrets.PASSWORD }}
+	script: |
+	  touch texttt.txt
