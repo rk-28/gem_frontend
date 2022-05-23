@@ -38,7 +38,7 @@ $  csrutil disable
 
 * Now Click on the Quit terminal. Now we need to restart the Mac machine.
 
-           ![image alt text](image_5.png)
+![image alt text](image_5.png)
 
 * Once restart done. 
 
@@ -46,7 +46,7 @@ $  csrutil disable
 
 $ csrutil status
 
-              ![image alt text](image_6.png)
+![image alt text](image_6.png)
 
 **Step2:  Turn on System Integrity Protection (SIP) on Mac.**
 
@@ -70,7 +70,7 @@ $ csrutil status
 
 *  Wait for OS X to boot into the OS X Utilities window.
 
-                  ![image alt text](image_10.png)
+![image alt text](image_10.png)
 
 * Click on Utilities then select the terminal option. Now open Terminal and enter the  Below Command in terminal 
 
@@ -80,11 +80,11 @@ $ csrutil status
 
 $  csrutil Enable
 
-           ![image alt text](image_11.png)
+![image alt text](image_11.png)
 
 * Now Click on the Quit terminal. Now we need to restart the Mac machine.
 
-           ![image alt text](image_12.png)
+![image alt text](image_12.png)
 
 * Once restart Done. 
 
