@@ -98,7 +98,7 @@ Reference URL:  [https://docs.google.com/document/d/1VOfEAn4aYBdE7l_Kc9hk-EsGQXK
 
 	$ socios –version
 
-                ![image alt text](image_2.png)
+![image alt text](image_2.png)
 
 # **Step1:  Install virtual box in MAC machine with the latest version**
 
@@ -148,21 +148,21 @@ Reference Documentation: [https://docs.google.com/document/d/1PQFOSeFuEH0rISVxM-
 
 * Once the VirtualBox popup box will appear. We need to configure the Linux machine in a Virtual box.
 
-                          ![image alt text](image_8.png)
+![image alt text](image_8.png)
 
 * Select the language option " English" and click on “Install Ubuntu”
 
 * Click on Continue 
 
-        ![image alt text](image_9.png)
+![image alt text](image_9.png)
 
 *  click on Continue
 
-        ![image alt text](image_10.png)
+![image alt text](image_10.png)
 
 * Click on Install Now
 
-     ![image alt text](image_11.png)
+![image alt text](image_11.png)
 
 * Popup screen will appear. Then click on continue.
 
@@ -170,15 +170,15 @@ Reference Documentation: [https://docs.google.com/document/d/1PQFOSeFuEH0rISVxM-
 
 * Follow the installation procedure and fill the Who are you Screen.
 
-           ![image alt text](image_13.png)
+![image alt text](image_13.png)
 
 * Once done with instruction - Click on continue
 
 ![image alt text](image_14.png)
 
-                   ![image alt text](image_15.png)
+![image alt text](image_15.png)
 
 * Click on Restart - Once restart will done.
 
-                  ![image alt text](image_16.png)
+![image alt text](image_16.png)
 
