@@ -84,7 +84,7 @@ Reference URL:  [https://docs.google.com/document/d/1VOfEAn4aYBdE7l_Kc9hk-EsGQXK
 
 	$ brew tap SociOS-Linux/socios
 
-![text](image_0.png){ width=60%,height:30px }
+![text](image_0.png){ width=60px,height:30px }
 
 * Above command is initializing our package with the brew repository. Once the brew tap execution is completed.
 
