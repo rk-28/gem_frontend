@@ -10,7 +10,7 @@ Now click on the Software section we can able to the SIP status
 
 Turn off the MAC machine or device
 
-<img src="https://i.ibb.co/n6852fH/image-1.png" width="500px">
+<img src="https://i.ibb.co/n6852fH/image-1.png" width="700px">
 
 Now we need to enter recovery mode to edit system settings and disable System Integrity Protection on Mac. 
 
