@@ -33,7 +33,9 @@ end
 
 Then re-run the below commands.
 
-		$ brew tap SociOS-Linux/socios
+```
+$ brew tap SociOS-Linux/socios
+```
 
 <img src="https://i.ibb.co/rMvsfxV/image-1.png">
 
@@ -51,7 +53,7 @@ $ socios --version
 
 For Inaccessible error: the  Virtualbox script file is missing on a specific path. Once the ISO image installation and partition are completed.
 
-Solution:
+**Solution:**
 
 Re-Run the Below command for creating the ISO image and disk partition
 
