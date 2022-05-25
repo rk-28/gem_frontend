@@ -141,10 +141,6 @@ Click on Continue
        
 <img src="https://i.ibb.co/8BTzdbB/image-9.png">	   
 
-click on Continue
-
-<img src="https://i.ibb.co/8BTzdbB/image-9.png">
-
 Click on Install Now
 
 <img src="https://i.ibb.co/tM3P6PG/image-11.png">
