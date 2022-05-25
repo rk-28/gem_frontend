@@ -47,7 +47,7 @@ Step 3: Unlock the security center
 
 Step 4: Approve the software by Oracle
 
-Step 5:
+Step 5: Follow the below commands
 
 ```
 sudo kextload -b org.virtualbox.kext.VBoxNetFlt
