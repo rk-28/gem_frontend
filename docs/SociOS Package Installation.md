@@ -40,17 +40,17 @@ Lib – directory contains with below script files
 
 This file contains the functions and arguments of socios such as build, check, help, and version. Currently, we have added 4 functions to this file.
 
-<img src="https://i.ibb.co/t3SKk29/Screenshot-1.jpg" width="700px">
+<img src="https://i.ibb.co/t3SKk29/Screenshot-1.jpg" width="600px">
 
 The above functions are passed through the below arguments 
 
-<img src="https://i.ibb.co/0t0rncg/Screenshot-2.jpg" width="700px">
+<img src="https://i.ibb.co/0t0rncg/Screenshot-2.jpg" width="600px">
 
 ### Install_virtualbox.scpt
 
 This file helps us to check whether the virtual box is installed or not and prompts the question to the user to install the virtual box.
 
-<img src="https://i.ibb.co/D4LwJSd/Screenshot-3.jpg" width="700px">
+<img src="https://i.ibb.co/D4LwJSd/Screenshot-3.jpg" width=600px">
 
 Based on the user input from the source 
 
