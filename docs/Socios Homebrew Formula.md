@@ -182,12 +182,14 @@ It will show changes between commits, commit, and the working tree
  
 <img src="https://i.ibb.co/9Yccs87/image-20.png">
  
+```bash
 $ git add .
  
 $ git commit -m “Socios: Updated version V1.3.0”
  
 $ git push -u origin main / git push -u origin develop
- 
+``` 
+
 <img src="https://i.ibb.co/FVd9059/image-21.png">
  
 Once committed the file we need to refresh the GitHub page 
