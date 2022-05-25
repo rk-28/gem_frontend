@@ -3,7 +3,7 @@
 
 ERROR:
  
-<img src="https://i.ibb.co/rp7b41J/image-0.png" width="450" height="300">
+<img src="https://i.ibb.co/rp7b41J/image-0.png" width="500" height="400">
 
 Solution:
 
@@ -14,19 +14,19 @@ Step1: Updating the Security policy in MAC Machine
 
 -	First, navigate to System Preferences by clicking the Apple icon on the top menu bar
 
-<img src="https://i.ibb.co/wzw2Hkn/image-1.png" width="450" height="300">
+<img src="https://i.ibb.co/wzw2Hkn/image-1.png" width="500" height="400">
 
 -	Select the “System Preferences” button. 
 
-<img src="https://i.ibb.co/BnByDw6/image-2.png" width="450" height="300">
+<img src="https://i.ibb.co/BnByDw6/image-2.png" width="600" height="300">
 
 -	From there, click the “Security and Privacy” option.
 
 -	Under the “General” tab, there should be text near the bottom that says, “System Software from Developer ‘Oracle America, Inc.’ Was Blocked from Loading.”
 
 
-<img src="https://i.ibb.co/Qj9XmxL/image-3.png" width="450" height="300">
+<img src="https://i.ibb.co/Qj9XmxL/image-3.png" width="500" height="400">
 
 -	The installation will now complete successfully
 
-<img src="https://i.ibb.co/nD2Cdzk/image-4.png" width="450" height="300">
+<img src="https://i.ibb.co/nD2Cdzk/image-4.png" width="500" height="400">
