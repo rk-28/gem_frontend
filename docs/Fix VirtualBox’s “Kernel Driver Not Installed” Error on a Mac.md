@@ -3,7 +3,7 @@
 
 ERROR:
  
-<img src="https://i.ibb.co/rp7b41J/image-0.png" width="500" height="400">
+<img src="https://i.ibb.co/rp7b41J/image-0.png" width="500" height="350">
 
 Solution:
 
@@ -18,7 +18,7 @@ Step1: Updating the Security policy in MAC Machine
 
 -	Select the “System Preferences” button. 
 
-<img src="https://i.ibb.co/BnByDw6/image-2.png" width="600" height="300">
+<img src="https://i.ibb.co/BnByDw6/image-2.png" width="600" height="200">
 
 -	From there, click the “Security and Privacy” option.
 
