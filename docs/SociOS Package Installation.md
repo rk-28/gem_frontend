@@ -1,7 +1,7 @@
 
-	                              SociOS Package Installation
+# SociOS Package Installation
 
-Step1: Steps to Install socios packages
+### Step1: Steps to Install socios packages
 
 Steps to install the socios packages in MAC machine by using the below commands. Before we need to tap the formula in repo
 
@@ -18,7 +18,7 @@ $ socios --version
 
 <img src="https://i.ibb.co/Gc65Lm4/image-0.png">
 
-Step2: SociOS Package
+### Step2: SociOS Package
 
 Socios package contains the below files and directory
 
@@ -26,17 +26,18 @@ Socios – root bin command file.
 
 Lib – directory contains with below script files
 
-Install_virtualbox.scpt – this script file will be run by calling the check function
+**Install_virtualbox.scpt -** this script file will be run by calling the check function
 
-Image.sh – this script file is included in the above file as a source
+**Image.sh –** this script file is included in the above file as a source
 
-Create_vm.sh – this file will be run by calling the build function
+**Create_vm.sh –** this file will be run by calling the build function
 
-Disk_partition.sh - this script file gets the disk name from the user input and adds the custom disk space from the user
+**Disk_partition.sh -** this script file gets the disk name from the user input and adds the custom disk space from the user
 
-Csrutil_status.sh -  This script will check the SIP option is Enable / Disabled
+**Csrutil_status.sh -**  This script will check the SIP option is Enable / Disabled
 
-Socios bin command file.
+### Socios bin command file.
+
 This file contains the functions and arguments of socios such as build, check, help, and version. Currently, we have added 4 functions to this file.
 
 <img src="https://i.ibb.co/t3SKk29/Screenshot-1.jpg">
@@ -45,7 +46,7 @@ The above functions are passed through the below arguments
 
 <img src="https://i.ibb.co/0t0rncg/Screenshot-2.jpg">
 
-Install_virtualbox.scpt
+### Install_virtualbox.scpt
 
 This file helps us to check whether the virtual box is installed or not and prompts the question to the user to install the virtual box.
 
@@ -61,7 +62,7 @@ Once the installation process completed. We can able check the Virtual box versi
  
 <img src="https://i.ibb.co/Cbd6GVM/image-1.png">
 
-Image.sh
+### Image.sh
 
 This helps us download the Socios image from the remote repository to the local directory /tmp/socios next to the installation of the VirtualBox. 
 
@@ -83,7 +84,7 @@ $ system_profiler SPSoftwareDataType
 
 <img src="https://i.ibb.co/K0fHbFC/image-4.png">
 
-Create_vm.sh
+### Create_vm.sh
 
 We can able to create a virtual machine to boot our socios image in the physical partition.
 
@@ -91,7 +92,7 @@ Temporarily we used default disk space of 30 GB and ubuntu image. We need to alt
 
 <img src="https://i.ibb.co/HxrRK35/Screenshot-4.jpg">
 
-Csrutil_status.sh
+### Csrutil_status.sh
 
 This script will check if the SIP option is Enable / Disabled
 
@@ -107,7 +108,7 @@ Enable SIP:  $  csrutil enable
 Check SIP status: $ csrutil status
 ```
 
-Disk_partition.sh
+### Disk_partition.sh
 
 We have created the Disk partition script for the condition for getting the disk name from the user input and adding the custom disk space from the user.
 

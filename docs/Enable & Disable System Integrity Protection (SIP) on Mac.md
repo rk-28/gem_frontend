@@ -1,6 +1,6 @@
-  Enable & Disable System Integrity Protection (SIP) on Mac
+# Enable & Disable System Integrity Protection (SIP) on Mac
 
-Step1:  Turn off System Integrity Protection (SIP) on Mac.
+### Step1:  Turn off System Integrity Protection (SIP) on Mac.
 
 Click on the “Apple Icon” - Click on “about this MAC” then Click on “System reports”
 
@@ -53,7 +53,7 @@ $ csrutil status
 
 <img src="https://i.ibb.co/wr7qXyP/image-6.png">
 
-Step2:  Turn on System Integrity Protection (SIP) on Mac.
+### Step2:  Turn on System Integrity Protection (SIP) on Mac.
 
 Click on the “Apple Icon” - Click on “about this MAC” then Click on “System reports”
 
@@ -73,7 +73,7 @@ Hold down Command-R and press the Power button. Keep holding Command-R until the
 
 Select the User and enter the password - Click on continue 
 
- Wait for OS X to boot into the OS X Utilities window.
+Wait for OS X to boot into the OS X Utilities window.
    
 <img src="https://i.ibb.co/7VD3vVb/image-3.png">   
 

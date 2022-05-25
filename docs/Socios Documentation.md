@@ -1,13 +1,14 @@
 
-                                         Socios Documentation
-Socio Formula
+# Socios Documentation
+
+### Socio Formula
 
 Socios formula is a package definition written in Ruby.
 
 It can be created with brew create <URL> where <URL> is zip or tarball. 
 
 ```bash
-              $ brew create https://github.com/SociOS-Linux/socios/archive/refs/tags/v1.3.6.tar.gz
+$ brew create https://github.com/SociOS-Linux/socios/archive/refs/tags/v1.3.6.tar.gz
 ```
 
 Installed with brew install <formula>command  & debugged with brew install --debug.
@@ -18,7 +19,7 @@ $ brew install package-name
 $ brew install package --debug
 ```
 
-Socios terminology
+### Socios terminology
 
 Terms
 Description
@@ -39,7 +40,15 @@ Bottle
 Pre-built Keg used instead of building from source
 qt-4.8.4.catalina.bottle.tar.gz
 
-An Introduction
+| Terms  | Description | Example |
+| ------------- | ------------- | ------- |
+| Formula  | Package definition uses the path  | /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core/Formula/socios.rb | 
+| Keg  | Installation prefix of a Formula  | /usr/local/Cellar/Socios/v1.3.6 |
+| Cellar  | All Kegs are installed in path  | /usr/local/Cellar | 
+| Tap  | Git repository of Formulae and/or commands  | /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core |
+| Bottle  | Pre-built Keg used instead of building from source  | qt-4.8.4.catalina.bottle.tar.gz | 
+
+### An Introduction
 
 Homebrew uses Git for downloading updates and contributing to the project.
 
@@ -48,7 +57,8 @@ Homebrew installs to the Cellar and then symlinks some of the installations into
 Packages are installed according to their formulae, which live in 
 
 /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core/Formula/socios.rb
-Basic Instructions
+
+### Basic Instructions
 
 Before we can start need to update the Repository. This turns our Homebrew installation into a Git repository.
 
@@ -61,14 +71,15 @@ Passes all brew audit --new-formula <formula> tests
 Reference URL:  https://docs.google.com/document/d/1VOfEAn4aYBdE7l_Kc9hk-EsGQXKLoJiCCtY7q3skwwQ/edit?usp=sharing
 
 In the above documentation, we have mentioned all Tag, version, Release, and formulas in detail.
-Install the formula
+
+### Install the formula
 
 Open MAC machine terminal. Now we need to set a socios repository name with brew tap repo.
 
 The brew tap command adds more repositories to the list of formulas that Homebrew tracks, updates, and installs from. Run the following command in the terminal.
 
 ```bash
-	$ brew tap SociOS-Linux/socios
+$ brew tap SociOS-Linux/socios
 ```
 
 <img src="https://i.ibb.co/fGSgKG4/image-0.png">
@@ -78,7 +89,7 @@ Above command is initializing our package with the brew repository. Once the bre
 We need to install the socios formula in the MAC machine using the below command.
 
 ```bash
-	$ brew install socios
+$ brew install socios
 ```
 
 <img src="https://i.ibb.co/bgR71xg/image-1.png">
@@ -86,18 +97,18 @@ We need to install the socios formula in the MAC machine using the below command
 The Socios installation is completed. We can able to use the “socios” command in the MAC machine also we can check the version of our package using the below command.
 
 ```bash
-	$ socios –version
+$ socios –version
 ```
 
 <img src="https://i.ibb.co/NxtzbdC/image-2.png">
       
-Step1:  Install virtual box in MAC machine with the latest version
+### Step1:  Install virtual box in MAC machine with the latest version
 
 Once we verified with Socios version. We can start to install Virtual Box and Download the Ubuntu ISO image on the MAC machine.
 
 In this function, we have added the Virtualbox installation commands and ISO image downloading command in the script file.
 ```bash
-	$ socios init
+$ socios init
 ```
 
 Drive details: We have created a separate drive for the Ubuntu iso image and updated the ImageID and ISO ImageURL in the Image script file 
@@ -109,7 +120,7 @@ Password: Arya143$
 
 Reference Documentation: https://docs.google.com/document/d/1PQFOSeFuEH0rISVxM-Hw60s8AGVopTlQEdAWVg_IkFA/edit?usp=sharing
 
-Step2:  Create Virtual Machine in Virtual Box & Booting the ISO image in Virtual box
+### Step2:  Create Virtual Machine in Virtual Box & Booting the ISO image in Virtual box
 
 We can able to check the VirtualBox image in Launchpad
 
@@ -118,7 +129,7 @@ We can able to check the VirtualBox image in Launchpad
 Open the Terminal, Now we need to run the below command to create a Virtual machine and Booting the ISO image file 
 
 ```bash
-	$ socios build
+$ socios build
 ```
 
 <img src="https://i.ibb.co/37Mcf8p/image-5.png">

@@ -1,6 +1,6 @@
-Bottle Available ERROR & Virtualbox Socios Inaccessible error
+# Bottle Available ERROR & Virtualbox Socios Inaccessible error
 
-Error: 
+### Error: 
 
 <img src="https://i.ibb.co/3FccCFW/image-0.png">
 
@@ -8,7 +8,7 @@ After updating the Socios repository(Socios). We need to install the latest chan
 
 While trying to install the socios package in the MAC machine. We are facing a No Bottle available Error.
 
-Solution:
+**Solution:**
 
 Need to run the below commands:
 
@@ -19,14 +19,17 @@ $  brew update
 ```
 
 Then We need to update the Socios.rb with the below lines
+
 Path:   /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core/Formula/socios.rb
 
+```
 Syntax:
      def install
               bin.install "socios"
               prefix.install Dir["lib"]
      end
 end
+```
 
 Then re-run the below commands.
 
@@ -42,7 +45,7 @@ $ socios --version
 
 <img src="https://i.ibb.co/yYT79YC/image-2.png">
 
-Virtualbox Socios Inaccessible error
+### Virtualbox Socios Inaccessible error
 
 <img src="https://i.ibb.co/JWYMGHH/image-3.png">
 

@@ -1,6 +1,6 @@
-  Socios Homebrew Formula 
+# Socios Homebrew Formula 
 
-Homebrew Formula
+### Homebrew Formula
 
 The Homebrew tap/formula process is the combination of two GitHub repositories. 
 
@@ -8,7 +8,7 @@ The Homebrew tap/formula process is the combination of two GitHub repositories.
 
 The second GitHub repo contains the homebrew formula with the ruby file (homebrew-socios).
 
-Step1: Creating Tag and Releases
+### Step1: Creating Tag and Releases
 
 <img src="https://i.ibb.co/hFjYH8J/image-0.png">
 
@@ -88,7 +88,7 @@ Finally, We can able the see the latest release in the socios repository
 
 <img src="https://i.ibb.co/VtTY8D0/image-12.png">
 
-Step2: Creating Homebrew Tap/Formula
+### Step2: Creating Homebrew Tap/Formula
 
 Already we have a package zip and tar.gz file in our First repository(socios)
 
@@ -127,19 +127,19 @@ Now the Updated formula is created in the below file location.
 
          /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core/Formula/socios.rb
 
-Homebrew Directory list
+#### Homebrew Directory list
 
           Homebrew package uses the below folder's path to configuration.
 
-Formula – The package definition uses the path /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core/Formula/socios.rb
+**Formula –** The package definition uses the path /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core/Formula/socios.rb
 
-Keg - The installation prefix of a Formula uses the path /usr/local/Cellar/Socios/v1.3.6
+**Keg -** The installation prefix of a Formula uses the path /usr/local/Cellar/Socios/v1.3.6
 
-Cellar - All Kegs are installed in path /usr/local/Cellar
+**Cellar -** All Kegs are installed in path /usr/local/Cellar
 
-Tap - A Git repository of Formulae and/or commands uses the path /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core
+**Tap -** A Git repository of Formulae and/or commands uses the path /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core
 
-Step3: Creating  Second Repository for Homebrew Formula/ Socios
+### Step3: Creating  Second Repository for Homebrew Formula/ Socios
 
 Create a second repository(homebrew-socios) for the ruby formula. 
 
@@ -168,13 +168,15 @@ $ cp /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core/Formula/socios.rb .
 Using nano command. We need to update the socios.rb file using the below Line.
 
 <img src="https://i.ibb.co/XDcDvLq/image-18.png">
-                           
+   
+```   
 Syntax:
      def install
               bin.install "socios"
               prefix.install Dir["lib"]
      end
 end
+``` 
  
 Then we need to commit the updated file to Second Repository (homebrew-socios)
  
