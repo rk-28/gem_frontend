@@ -13,6 +13,7 @@ Solution:
 
 
 **Step1: Updating the Security policy in MAC Machine**
+### Step1: Updating the Security policy in MAC Machine
 
 -	First, navigate to System Preferences by clicking the Apple icon on the top menu bar
 
