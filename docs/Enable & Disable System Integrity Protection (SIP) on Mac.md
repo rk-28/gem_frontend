@@ -6,7 +6,7 @@ Click on the “Apple Icon” - Click on “about this MAC” then Click on “S
 
 Now click on the Software section we can able to the SIP status
 
-<img src="https://i.ibb.co/rwYXYwM/image-0.png">
+<img src="https://i.ibb.co/rwYXYwM/image-0.png" width="700px">
 
 Turn off the MAC machine or device
 
