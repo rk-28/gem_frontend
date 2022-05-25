@@ -16,7 +16,7 @@ $ socios --help
 $ socios --version
 ```
 
-<img src="https://i.ibb.co/Gc65Lm4/image-0.png" width="700px">
+<img src="https://i.ibb.co/Gc65Lm4/image-0.png" width="800px">
 
 ### Step2: SociOS Package
 
@@ -72,7 +72,7 @@ Currently, we have added google drive for testing purposes.
 
 In the future, we need to add the launchpad repository instead of google cloud.
 
-<img src="https://i.ibb.co/tH4BF3N/image-3.png"width="700px">
+<img src="https://i.ibb.co/tH4BF3N/image-3.png" width="700px">
 
 Check our macOS version & product version from the Terminal
 
