@@ -2,7 +2,7 @@ Bottle Available ERROR & Virtualbox Socios Inaccessible error
 
 Error: 
 
-<img src="https://i.ibb.co/3FccCFW/image-0.png" width="700" height="200">
+<img src="https://i.ibb.co/3FccCFW/image-0.png">
 
 After updating the Socios repository(Socios). We need to install the latest changes on our MAC machine.
 
