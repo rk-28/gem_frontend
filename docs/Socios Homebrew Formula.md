@@ -14,7 +14,9 @@ Step1: Creating Tag and Releases
 
 We need to clone the First repository(socios) in a specific path. Using the below Git clone command
 
+```bash
 $ git clone https://github.com/SociOS-Linux/socios.git
+```
 
 <img src="https://i.ibb.co/Jr1jtVk/image-1.png">
 
@@ -30,7 +32,9 @@ $ git add .
 
 <img src="https://i.ibb.co/FVV6dCb/image-2.png">
 
+```bash
 $ git commit -am "Sociois: Updated to the latest version"
+```
 
 For every commit, we need to update the commit message.
 
@@ -102,7 +106,9 @@ Create the ruby file formula by running the below command in the terminal.
 
 Syntax: brew create <socios package URL>
 
+```bash
 $ brew create https://github.com/SociOS-Linux/socios/archive/refs/tags/v1.3.0.tar.gz
+```
 
 Notes: If there is an existing version configured in mac Machine we need to untap the previous version.
 
@@ -141,7 +147,9 @@ Create a second repository(homebrew-socios) for the ruby formula.
 
 Then clone that repository in our local System using the below git clone command.
 
-	$ git clone https://github.com/SociOS-Linux/homebrew-socios.git
+```bash
+$ git clone https://github.com/SociOS-Linux/homebrew-socios.git
+```
 
 <img src="https://i.ibb.co/KXsSF2V/image-16.png">
 
@@ -153,7 +161,9 @@ Now we need to update the socios.rb file with some functions.
 
 Copy the default socios.rb file with cloned repository folder (homebrew-socios)
 
+```bash
 $ cp /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core/Formula/socios.rb .
+```
 
 Using nano command. We need to update the socios.rb file using the below Line.
 
@@ -169,15 +179,19 @@ end
 Then we need to commit the updated file to Second Repository (homebrew-socios)
  
 Check the branch and status using the git commands.
- 
-		$ git status && git branch
- 
+
+```bash 
+$ git status && git branch
+```
+
 <img src="https://i.ibb.co/xJxHXC6/image-19.png">
  
 Check the changes in the file using the below terminal
  
+```
 $ git diff 
- 
+``` 
+
 It will show changes between commits, commit, and the working tree
  
 <img src="https://i.ibb.co/9Yccs87/image-20.png">
@@ -199,8 +213,10 @@ Once committed the file we need to refresh the GitHub page
 Once completed the above procedures, we can able to download and use our socios packages by using the below commands.
 
 Then we can check the functions of Socios using the below commands.
-  
-         $ brew tap SociOS-Linux/socios 
+ 
+``` 
+$ brew tap SociOS-Linux/socios 
+```
 
 <img src="https://i.ibb.co/rMvsfxV/image-1.png">
 	
@@ -213,5 +229,6 @@ Then we can check the functions of Socios using the below commands.
 <img src="https://i.ibb.co/yYT79YC/image-2.png">
 
 Steps to uninstall socios
-
+```
 $ brew uninstall socios
+```

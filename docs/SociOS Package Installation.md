@@ -4,7 +4,11 @@
 Step1: Steps to Install socios packages
 
 Steps to install the socios packages in MAC machine by using the below commands. Before we need to tap the formula in repo
-			$ brew install Socios
+
+```bash
+$ brew install Socios
+```
+
 Then we can check the functions of Socios using the command
 
 ```bash
@@ -71,9 +75,11 @@ In the future, we need to add the launchpad repository instead of google cloud.
 
 Check our macOS version & product version from the Terminal
 
+```
 $ sw_vers -productVersion 
 
 $ system_profiler SPSoftwareDataType
+```
 
 <img src="https://i.ibb.co/K0fHbFC/image-4.png">
 
