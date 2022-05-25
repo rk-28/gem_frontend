@@ -63,7 +63,7 @@ The brew tap command adds more repositories to the list of formulas that Homebre
 $ brew tap SociOS-Linux/socios
 ```
 
-<img src="https://i.ibb.co/fGSgKG4/image-0.png">
+<img src="https://i.ibb.co/fGSgKG4/image-0.png" width="700px">
 
 Above command is initializing our package with the brew repository. Once the brew tap execution is completed.
 
@@ -73,7 +73,7 @@ We need to install the socios formula in the MAC machine using the below command
 $ brew install socios
 ```
 
-<img src="https://i.ibb.co/bgR71xg/image-1.png">
+<img src="https://i.ibb.co/bgR71xg/image-1.png" width="700px">
 
 The Socios installation is completed. We can able to use the “socios” command in the MAC machine also we can check the version of our package using the below command.
 
@@ -81,7 +81,7 @@ The Socios installation is completed. We can able to use the “socios” comman
 $ socios –version
 ```
 
-<img src="https://i.ibb.co/NxtzbdC/image-2.png">
+<img src="https://i.ibb.co/NxtzbdC/image-2.png" width="700px">
       
 ### Step1:  Install virtual box in MAC machine with the latest version
 
@@ -97,7 +97,7 @@ Drive details: We have created a separate drive for the Ubuntu iso image and upd
 Mail ID:      socios.setup@gmail.com
 Password: Arya143$
 
-<img src="https://i.ibb.co/fYJ2fzy/image-3.png">
+<img src="https://i.ibb.co/fYJ2fzy/image-3.png" width="700px">
 
 Reference Documentation: https://docs.google.com/document/d/1PQFOSeFuEH0rISVxM-Hw60s8AGVopTlQEdAWVg_IkFA/edit?usp=sharing
 
@@ -105,7 +105,7 @@ Reference Documentation: https://docs.google.com/document/d/1PQFOSeFuEH0rISVxM-H
 
 We can able to check the VirtualBox image in Launchpad
 
-<img src="https://i.ibb.co/C2bkFQq/image-4.png">
+<img src="https://i.ibb.co/C2bkFQq/image-4.png" width="700px">
 
 Open the Terminal, Now we need to run the below command to create a Virtual machine and Booting the ISO image file 
 
@@ -113,7 +113,7 @@ Open the Terminal, Now we need to run the below command to create a Virtual mach
 $ socios build
 ```
 
-<img src="https://i.ibb.co/37Mcf8p/image-5.png">
+<img src="https://i.ibb.co/37Mcf8p/image-5.png" width="700px">
 
 Once we execute the above command in the terminal we need to give some user inputs
 
@@ -121,7 +121,7 @@ Enter the VM Name: Socios-VM
 
 Then press enter, here we can able to view the Disk space from the hard disk.
 
-<img src="https://i.ibb.co/G74VQZr/image-6.png">
+<img src="https://i.ibb.co/G74VQZr/image-6.png" width="700px">
 
 Now we need to enter the Storage size in GB  Example: 10, After the size is given in GB, the script will convert the value into MB and proceed for the next command
 
@@ -129,36 +129,36 @@ Once the Virtual disk is created. We have associated the SATA Controller & IDE c
 
 Then the ISO image is booted in VM and starts launching the Virtual machine in the virtual box
 
-<img src="https://i.ibb.co/MgtKw21/image-7.png">
+<img src="https://i.ibb.co/MgtKw21/image-7.png" width="700px">
 
 Once the VirtualBox popup box will appear. We need to configure the Linux machine in a Virtual box.
 
-<img src="https://i.ibb.co/pjbpHyp/image-8.png">
+<img src="https://i.ibb.co/pjbpHyp/image-8.png" width="700px">
 
 Select the language option “ English” and click on “Install Ubuntu”
 
 Click on Continue 
        
-<img src="https://i.ibb.co/8BTzdbB/image-9.png">	   
+<img src="https://i.ibb.co/8BTzdbB/image-9.png" width="700px">	   
 
 Click on Install Now
 
-<img src="https://i.ibb.co/tM3P6PG/image-11.png">
+<img src="https://i.ibb.co/tM3P6PG/image-11.png" width="700px">
 
 Popup screen will appear. Then click on continue.
 
-<img src="https://i.ibb.co/BstRkyc/image-12.png">
+<img src="https://i.ibb.co/BstRkyc/image-12.png" width="700px">
 
 Follow the installation procedure and fill the Who are you Screen.
 
-<img src="https://i.ibb.co/cJBkKnZ/image-13.png">        
+<img src="https://i.ibb.co/cJBkKnZ/image-13.png" width="700px">        
 
 Once done with instruction - Click on continue
 
-<img src="https://i.ibb.co/C2DVt2j/image-14.png">  
+<img src="https://i.ibb.co/C2DVt2j/image-14.png" width="700px">  
 
-<img src="https://i.ibb.co/yXDn3ty/image-15.png">         
+<img src="https://i.ibb.co/yXDn3ty/image-15.png" width="700px">         
 
 Click on Restart - Once restart will done.
 
-<img src="https://i.ibb.co/17LfxGw/image-16.png"> 
+<img src="https://i.ibb.co/17LfxGw/image-16.png" width="700px"> 
