@@ -1,7 +1,7 @@
 # Fix VirtualBox’s “Kernel Driver Not Installed” Error on a Mac
 
 
-ERROR:
+##### ERROR:
  
 <img src="https://i.ibb.co/rp7b41J/image-0.png">
 
