@@ -33,7 +33,9 @@ $ git commit -am "Sociois: Updated to the latest version"
 For every commit, we need to update the commit message.
 
 <img src="https://i.ibb.co/3Y4RnFh/image-3.png">
+
 ```bash
+#commands
 $ git push -u origin main //  git push -u origin develop
 
 $ git tag v1.3.0
