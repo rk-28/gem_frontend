@@ -25,7 +25,7 @@ https://ibb.co/tLDqf32
 -	Under the “General” tab, there should be text near the bottom that says, “System Software from Developer ‘Oracle America, Inc.’ Was Blocked from Loading.”
 
 
-<img src="https://ibb.co/Kz6my8d" width="200" height="200" />
+![Employee data](https://ibb.co/tLDqf32 "Employee Data title")
                        
 
 -	The installation will now complete successfully
