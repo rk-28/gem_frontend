@@ -21,25 +21,6 @@ $ brew install package --debug
 
 ### Socios terminology
 
-Terms
-Description
- Example
-Formula
-Package definition uses the path 
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core/Formula/socios.rb
-Keg
-Installation prefix of a Formula
-/usr/local/Cellar/Socios/v1.3.6
-Cellar
-All Kegs are installed in path
-/usr/local/Cellar
-Tap
-Git repository of Formulae and/or commands
-/usr/local/Homebrew/Library/Taps/homebrew/homebrew-core
-Bottle
-Pre-built Keg used instead of building from source
-qt-4.8.4.catalina.bottle.tar.gz
-
 | Terms  | Description | Example |
 | ------------- | ------------- | ------- |
 | Formula  | Package definition uses the path  | /usr/local/Homebrew/Library/Taps/homebrew/homebrew-core/Formula/socios.rb | 
