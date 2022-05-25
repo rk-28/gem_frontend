@@ -16,7 +16,7 @@ $ socios --help
 $ socios --version
 ```
 
-<img src="https://i.ibb.co/Gc65Lm4/image-0.png">
+<img src="https://i.ibb.co/Gc65Lm4/image-0.png" width="700px">
 
 ### Step2: SociOS Package
 
@@ -40,17 +40,17 @@ Lib – directory contains with below script files
 
 This file contains the functions and arguments of socios such as build, check, help, and version. Currently, we have added 4 functions to this file.
 
-<img src="https://i.ibb.co/t3SKk29/Screenshot-1.jpg">
+<img src="https://i.ibb.co/t3SKk29/Screenshot-1.jpg" width="700px">
 
 The above functions are passed through the below arguments 
 
-<img src="https://i.ibb.co/0t0rncg/Screenshot-2.jpg">
+<img src="https://i.ibb.co/0t0rncg/Screenshot-2.jpg" width="700px">
 
 ### Install_virtualbox.scpt
 
 This file helps us to check whether the virtual box is installed or not and prompts the question to the user to install the virtual box.
 
-<img src="https://i.ibb.co/D4LwJSd/Screenshot-3.jpg">
+<img src="https://i.ibb.co/D4LwJSd/Screenshot-3.jpg" width="700px">
 
 Based on the user input from the source 
 
@@ -60,7 +60,7 @@ The installation process will take some time (2 - 3 Minutes)
 
 Once the installation process completed. We can able check the Virtual box version
  
-<img src="https://i.ibb.co/Cbd6GVM/image-1.png">
+<img src="https://i.ibb.co/Cbd6GVM/image-1.png" width="700px">
 
 ### Image.sh
 
@@ -68,11 +68,11 @@ This helps us download the Socios image from the remote repository to the local 
 
 Currently, we have added google drive for testing purposes.
 
-<img src="https://i.ibb.co/JsT2rBP/image-2.png">
+<img src="https://i.ibb.co/JsT2rBP/image-2.png" width="700px">
 
 In the future, we need to add the launchpad repository instead of google cloud.
 
-<img src="https://i.ibb.co/tH4BF3N/image-3.png">
+<img src="https://i.ibb.co/tH4BF3N/image-3.png"width="700px">
 
 Check our macOS version & product version from the Terminal
 
@@ -82,7 +82,7 @@ $ sw_vers -productVersion
 $ system_profiler SPSoftwareDataType
 ```
 
-<img src="https://i.ibb.co/K0fHbFC/image-4.png">
+<img src="https://i.ibb.co/K0fHbFC/image-4.png" width="700px">
 
 ### Create_vm.sh
 
@@ -90,13 +90,13 @@ We can able to create a virtual machine to boot our socios image in the physical
 
 Temporarily we used default disk space of 30 GB and ubuntu image. We need to alter the script file once the Socios image.
 
-<img src="https://i.ibb.co/HxrRK35/Screenshot-4.jpg">
+<img src="https://i.ibb.co/HxrRK35/Screenshot-4.jpg" width="700px">
 
 ### Csrutil_status.sh
 
 This script will check if the SIP option is Enable / Disabled
 
-<img src="https://i.ibb.co/4phBQBM/image-5.png">
+<img src="https://i.ibb.co/4phBQBM/image-5.png" width="700px">
 
 Check the SIP(System integration protection) is enabled or disabled on a Mac machine using the below command 
 
@@ -114,6 +114,6 @@ We have created the Disk partition script for the condition for getting the disk
 
 Automated script for creating partition from APFS to Linux.
 
-<img src="https://i.ibb.co/GC0zk7X/image-6.png">
+<img src="https://i.ibb.co/GC0zk7X/image-6.png" width="700px">
 
 The above script will unmount the disk from our partition disk.
