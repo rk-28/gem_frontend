@@ -22,9 +22,11 @@ Switch into that cloned repository folder(socios) then we need to place the upda
 
 By using the git commands. We need to push the updated files to the First repository(socios)
 
+```bash
 $ git status && git branch
 
 $ git add .
+```
 
 <img src="https://i.ibb.co/FVV6dCb/image-2.png">
 
@@ -34,13 +36,12 @@ For every commit, we need to update the commit message.
 
 <img src="https://i.ibb.co/3Y4RnFh/image-3.png">
 
-```bash
-#commands
-$ git push -u origin main //  git push -u origin develop
+```
+	$ git push -u origin main //  git push -u origin develop
 
-$ git tag v1.3.0
+	$ git tag v1.3.0
 
-$ git push origin v1.3.0
+	$ git push origin v1.3.0
 ```
 
 <img src="https://i.ibb.co/GP8z7yv/image-4.png">
@@ -105,8 +106,10 @@ $ brew create https://github.com/SociOS-Linux/socios/archive/refs/tags/v1.3.0.ta
 
 Notes: If there is an existing version configured in mac Machine we need to untap the previous version.
 
+```bash
 $ brew uninstall socios
 $ brew untap  SociOS-Linux/socios
+```
 
 <img src="https://i.ibb.co/6BNQ9Q7/image-14.png">
 
@@ -199,9 +202,11 @@ Then we can check the functions of Socios using the below commands.
 
 <img src="https://i.ibb.co/rMvsfxV/image-1.png">
 	
+```bash
          $ brew install socios
 
          $ socios --version
+```
 
 <img src="https://i.ibb.co/yYT79YC/image-2.png">
 
