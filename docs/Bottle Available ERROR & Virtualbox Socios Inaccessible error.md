@@ -49,7 +49,7 @@ $ socios --version
 
 ### Virtualbox Socios Inaccessible error
 
-<img src="https://i.ibb.co/JWYMGHH/image-3.png">
+<img src="https://i.ibb.co/JWYMGHH/image-3.png" width="700">
 
 For Inaccessible error: the  Virtualbox script file is missing on a specific path. Once the ISO image installation and partition are completed.
 
