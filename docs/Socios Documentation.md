@@ -133,32 +133,32 @@ Then the ISO image is booted in VM and starts launching the Virtual machine in t
 
 Once the VirtualBox popup box will appear. We need to configure the Linux machine in a Virtual box.
 
-<img src="https://i.ibb.co/pjbpHyp/image-8.png" width="700px">
+<img src="https://i.ibb.co/pjbpHyp/image-8.png" width="600px">
 
 Select the language option “ English” and click on “Install Ubuntu”
 
 Click on Continue 
        
-<img src="https://i.ibb.co/8BTzdbB/image-9.png" width="700px">	   
+<img src="https://i.ibb.co/8BTzdbB/image-9.png" width="600px">	   
 
 Click on Install Now
 
-<img src="https://i.ibb.co/tM3P6PG/image-11.png" width="700px">
+<img src="https://i.ibb.co/tM3P6PG/image-11.png" width="600px">
 
 Popup screen will appear. Then click on continue.
 
-<img src="https://i.ibb.co/BstRkyc/image-12.png" width="700px">
+<img src="https://i.ibb.co/BstRkyc/image-12.png" width="600px">
 
 Follow the installation procedure and fill the Who are you Screen.
 
-<img src="https://i.ibb.co/cJBkKnZ/image-13.png" width="700px">        
+<img src="https://i.ibb.co/cJBkKnZ/image-13.png" width="600px">        
 
 Once done with instruction - Click on continue
 
-<img src="https://i.ibb.co/C2DVt2j/image-14.png" width="700px">  
+<img src="https://i.ibb.co/C2DVt2j/image-14.png" width="600px">  
 
-<img src="https://i.ibb.co/yXDn3ty/image-15.png" width="700px">         
+<img src="https://i.ibb.co/yXDn3ty/image-15.png" width="600px">         
 
 Click on Restart - Once restart will done.
 
-<img src="https://i.ibb.co/17LfxGw/image-16.png" width="700px"> 
+<img src="https://i.ibb.co/17LfxGw/image-16.png" width="600px"> 
