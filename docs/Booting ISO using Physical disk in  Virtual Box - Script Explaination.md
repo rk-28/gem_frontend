@@ -43,7 +43,9 @@ $ sudo sgdisk -n 0:0:$extra_ram -c 0:"SWAP" -t 0:0700 "$whole_disk"
 $ sudo sgdisk -n 0:0:"$ENDSECTOR" -c 0:"FEDORA" -t 0:0700 "$whole_disk"
 ```
 sudo  - need root permission to access sgdisk
+
 -n    - New partition
+
 0:0:+5G - Partition number (adding 0 will select the default):First sector(adding 0 will select the default):how much memory you want from the free space (for 5 gb ----> +5G (G indicated gb))
 
 ```
