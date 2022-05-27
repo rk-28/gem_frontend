@@ -42,24 +42,24 @@ The sgdisk code explaination is given below:
 $ sudo sgdisk -n 0:0:$extra_ram -c 0:"SWAP" -t 0:0700 "$whole_disk"
 $ sudo sgdisk -n 0:0:"$ENDSECTOR" -c 0:"FEDORA" -t 0:0700 "$whole_disk"
 ```
-	sudo  - need root permission to access sgdisk
-	-n    - New partition
-	0:0:+5G - Partition number (adding 0 will select the default):First sector(adding 0 will select the default):how much memory you want from the free space (for 5 gb ----> +5G (G indicated gb))
+sudo  - need root permission to access sgdisk
+-n    - New partition
+0:0:+5G - Partition number (adding 0 will select the default):First sector(adding 0 will select the default):how much memory you want from the free space (for 5 gb ----> +5G (G indicated gb))
 
 ```
 ENDSECTOR = $ sudo sgdisk -E "$whole_disk"
 ```
 
-	-E    - its the end of the largest available sector, so that every other free space gets allotted to FEDORA storage
+-E    - its the end of the largest available sector, so that every other free space gets allotted to FEDORA storage
 
-	-c	  - naming the partition, 0 indicates the default partition number and SWAP is the name of the partition
-	0:0700- partition format hexa code for default partition number (0), 0700 is the hexa code for MS-DOS partition format  
-	"whole disk" - its the whole disk disk0, disk1 
+-c	  - naming the partition, 0 indicates the default partition number and SWAP is the name of the partition
+0:0700- partition format hexa code for default partition number (0), 0700 is the hexa code for MS-DOS partition format  
+"whole disk" - its the whole disk disk0, disk1 
 
 ```
 $ sudo sgdisk -p "$whole_disk"
 ```
-	-p     - prints the partition of the whole disk i.e.(disk0)
+-p     - prints the partition of the whole disk i.e.(disk0)
 	
 6. After all the partitions are done the Virtual Machine is created from the Virtual Box, the user is prompted for the Virtual machine name of their choice. The VM name is created with the date and time information, so even if they provide similar name by mistake a separate VM will get created.
 
