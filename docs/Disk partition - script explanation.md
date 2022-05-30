@@ -32,9 +32,13 @@ $ space_available=$(diskutil info / | grep "Container Free Space" | awk '{print 
 ```
 
 5. After the free space is created, the sgdisk kicks in and creates 4 volumes
+
 a. Swap space - 2gb Larger than the Mac machine RAM size, Swap space is limited to 16gb even if the Mac machine possess larger memory.
+
 b. Boot partition space is 1mb.
+
 c. Two Linux Filesystem partition one with the size of 3 gb and other with the remaining space from the free space.
+
 d. Mac machine user password is needed to proceed with sgdisk for which user is asked for.
 	
 The sgdisk code explaination is given below:
