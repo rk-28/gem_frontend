@@ -53,8 +53,8 @@ $ sudo sgdisk -n 0:0:"$ENDSECTOR" -c 0:"Linux FS" -t 0:8300 "$whole_disk"
 
 **0:8200** - partition format hexa code for default partition number (0), 8200 is the hex code for Swap partition format  
 **whole disk** - its the whole disk disk0, disk1 
-**ef02** is the hex code for Boot partition format
-**8300** is the hex code for Linux filesystem partition format
+**ef02** - is the hex code for Boot partition format
+**8300** - is the hex code for Linux filesystem partition format
 
 ```
 ENDSECTOR = $ sudo sgdisk -E "$whole_disk"
