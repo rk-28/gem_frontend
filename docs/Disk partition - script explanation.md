@@ -35,7 +35,7 @@ $ space_available=$(diskutil info / | grep "Container Free Space" | awk '{print 
 	a. Swap space - 2gb Larger than the Mac machine RAM size, Swap space is limited to 16gb even if the Mac machine possess larger memory.
 	b. Boot partition space is 1mb
 	c. Two Linux Filesystem partition one with the size of 3 gb and other with the remaining space from the free space
-	c. Mac machine user password is needed to proceed with sgdisk for which user is asked for.
+	d. Mac machine user password is needed to proceed with sgdisk for which user is asked for.
 	
 The sgdisk code explaination is given below:
 
@@ -52,7 +52,7 @@ $ sudo sgdisk -n 0:0:"$ENDSECTOR" -c 0:"Linux FS" -t 0:8300 "$whole_disk"
 **-c**	  - naming the partition, 0 indicates the default partition number and SWAP is the name of the partition
 
 **0:8200** - partition format hexa code for default partition number (0), 8200 is the hex code for Swap partition format  
-**whole disk** - its the whole disk disk0, disk1 
+**whole disk** - its the whole disk disk0, disk1
 **ef02** - is the hex code for Boot partition format
 **8300** - is the hex code for Linux filesystem partition format
 
@@ -60,9 +60,9 @@ $ sudo sgdisk -n 0:0:"$ENDSECTOR" -c 0:"Linux FS" -t 0:8300 "$whole_disk"
 ENDSECTOR = $ sudo sgdisk -E "$whole_disk"
 ```
 
--E    - its the end of the largest available sector, so that every other free space gets allotted to FEDORA storage
+**-E**    - its the end of the largest available sector, so that every other free space gets allotted to FEDORA storage
 ```
 $ sudo sgdisk -p "$whole_disk"
 ```
--p     - prints the partition of the whole disk i.e.(disk0)
+**-p**     - prints the partition of the whole disk i.e.(disk0)
 	
