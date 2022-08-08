@@ -99,7 +99,9 @@ Now Click on the Quit terminal. Now we need to restart the Mac machine.
 
 Once restart Done. 
 
-<img src="https://i.ibb.co/rGwrzrf/image-13.png"> 
+<img src="https://i.ibb.co/rGwrzrf/image-13.png">
+
+<img src="https://prnt.sc/q-lhpNIXVwHw">
 
 Open the terminal and check the status of the SIP option.
 
