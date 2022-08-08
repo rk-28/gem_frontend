@@ -101,7 +101,7 @@ Once restart Done.
 
 <img src="https://i.ibb.co/rGwrzrf/image-13.png">
 
-<img src="https://ibb.co/9rRpPmv.png">
+<img src="https://i.ibb.co/KrC5ncG/Screenshot-5.jpg">
 
 Open the terminal and check the status of the SIP option.
 
