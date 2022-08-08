@@ -10,7 +10,7 @@
 
 4.Inside virtualbox , click on new for creating a new VM for OS
 
-![image alt text](image_0.png)
+![image alt text](https://prnt.sc/AwBgtYTfC-_3)
 
 5.Name the OS and the type and version and click on continue
 
