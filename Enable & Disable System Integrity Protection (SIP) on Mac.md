@@ -40,7 +40,9 @@ $  csrutil disable
 
 Now Click on the Quit terminal. Now we need to restart the Mac machine.
 
-<img src="https://i.ibb.co/Jn5qQpY/image-5.png">        
+<img src="https://i.ibb.co/Jn5qQpY/image-5.png">
+
+<img src="https://prnt.sc/q-lhpNIXVwHw">
 
 Once restart done. 
 
