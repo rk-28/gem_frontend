@@ -20,7 +20,7 @@
 
 6.select the memory size of your convenience and continue
 
-![image alt text](image_2.png)
+![image alt text](https://prnt.sc/AwBgtYTfC-_3)
 
 7.select create virtual hard disk and continue
 
