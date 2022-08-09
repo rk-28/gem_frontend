@@ -69,12 +69,14 @@ $ ls ~/backend
 ```
 $ sudo mv ~/staging-fcd/staging-backend/import ~/backend
 ```
+
 <img src="https://i.ibb.co/6rJcn54/ria-9.png">
 
 8.	Check the env file with production credentials using below command 
 ```
 $ cat .env
 ```
+
 <img src="https://i.ibb.co/sFw39Ff/ria-10.png">
 
 9.	Now execute the RIA script file in the /usr/local/bin folder
@@ -83,4 +85,5 @@ $ cd /usr/local/bin
 
 $ sh build-all-ria.sh
 ```
+
 <img src="https://i.ibb.co/HNVbyzs/ria-11.png">
