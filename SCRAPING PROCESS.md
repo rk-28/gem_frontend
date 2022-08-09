@@ -32,7 +32,7 @@ Username: ubuntu
 ```
 $ cd ~ && ll
 ```
-<img src="https://i.ibb.co/MnHzKBT/scr-4.png">
+<img src="https://i.ibb.co/MnHzKBT/scr-4.pg">
 
 2.Need to check the environment credentials in .bashrc file for (Staging or Production)
 ```
