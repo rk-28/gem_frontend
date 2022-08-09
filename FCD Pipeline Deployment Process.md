@@ -1,5 +1,5 @@
 ##                                     FCD Pipeline Deployment Process
-####Step1: Access the AWS console using  OpenVPN.
+#### Step1: Access the AWS console using  OpenVPN.
 
 -	Download the OpenVPN  from the below URL
 
@@ -56,7 +56,7 @@ $ cd ~
 ```
 <img src="https://i.ibb.co/FX7rFdZ/pipe-8.png">
  
-####Step2: Update the Production server environment credential in .env file 
+#### Step2: Update the Production server environment credential in .env file 
 
 -	We can export the below production credential in bashrc file  and activate the bashrc file in current user.
 ```
@@ -92,7 +92,7 @@ For staging :
 ```
 	$ echo $SQL_HOST
 ```
-####Step3: Activate the Virtual environment for production and staging server 
+#### Step3: Activate the Virtual environment for production and staging server 
 
 -	We can use the below command to activate the virtual environment
 ```
@@ -102,7 +102,7 @@ For staging :
 ```
 <img src="https://i.ibb.co/dBf2Dnn/pipe-9.png">
 
-####Step4: Verify the Virtual environment credential in production server 
+#### Step4: Verify the Virtual environment credential in production server 
 
 -	Now check the Env credentials in current environment folder
 ```
@@ -110,7 +110,7 @@ For staging :
 ```
 <img src="https://i.ibb.co/ck0c6sW/pipe-10.png">
  
-####Step5: We need to Synchronized  the export folder to production  S3 bucket 
+#### Step5: We need to Synchronized  the export folder to production  S3 bucket 
 
 -	Need to Sync the import folder and S3 bucket in firstclass data environment
 ```
@@ -120,7 +120,7 @@ For staging :
 
 	$ aws s3 sync --exclude "*.DS_Store" s3://fcd-data-pipeline-sourcedata/stage0-sourcedata import/stage0-sourcedata
 ```
-####Step6: start the build process for staging and production environment using below command.
+#### Step6: start the build process for staging and production environment using below command.
 
 -	We can use  mini command to get the first 100K data from the each csv file and run the build process
 ```
