@@ -139,7 +139,7 @@ For staging :
 	$ aws s3 sync --exclude "*.DS_Store" ../import/stage2-prepared s3://fcd-data-pipeline-sourcedata/stage2-prepared
 ```
 -	Once done, we need to run the below command in environment to update the database and elastic search .
-
+```
 	$ pipenv run python manage.py build_tabledata_from_source_csv
 	$ pipenv run python manage.py merge_down_agents
 	$ pipenv run python manage.py remove_unwanted_agents
@@ -150,3 +150,4 @@ For staging :
 	$ pipenv run python manage.py tidy_data
 	$ pipenv run python manage.py import_tabledata_to_postgres
 	$ pipenv run python manage.py import_es_documents
+```
