@@ -32,6 +32,7 @@ Username: ubuntu
 ```
 $ cd ~ && ll
 ```
+
 <img src="https://i.ibb.co/MnHzKBT/scr-4.png">
 
 2.Need to check the environment credentials in .bashrc file for (Staging or Production)
@@ -59,6 +60,7 @@ export DATA_PIPELINE_CONCURRENCY=8
 $ source .bashrc
 ```
 <img src="https://i.ibb.co/4P16tkF/scr-6.png">
+
 ```
 $ echo $ES_HOST && echo $SQL_HOST
 ```
