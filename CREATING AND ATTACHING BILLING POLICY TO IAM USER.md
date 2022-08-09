@@ -34,11 +34,11 @@ Step 6: Add the Tag and the value and click on “Next”
 
 Step 7: Review the policy and click on "Create policy"
 
-<img src="https://i.ibb.co/6nT60p0/bill-11.png" width="700" height="300">
+<img src="https://i.ibb.co/6nT60p0/bill-11.png" width="700" height="350">
 
 Step 8:  After creating the policy - Switch to policy section
 
-<img src="https://i.ibb.co/Wzp0p37/bill-12.png" width="700" height="100">
+<img src="https://i.ibb.co/Wzp0p37/bill-12.png" width="700" height="200">
 
 Step 9: Now select the created policy, click on  actions and click “Attach”
 
