@@ -30,7 +30,9 @@
 <img src="https://i.ibb.co/pzhcZGd/s3-6.png">
 
 10.Create another rule by clicking on Create lifecycle rule.
+
 11.Now enter a rule name and choose "This rule applies to all objects in the bucket" for rule scope.
+
 12.Check the acknowledgement
  
 <img src="https://i.ibb.co/1mDTM4j/s3-4.png">
