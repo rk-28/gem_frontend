@@ -2,7 +2,7 @@
 
 Step 1: Login to AWS console with root username and password(Only root user can add the billing policy to IAM user).
 
-<img src="https://i.ibb.co/PcSgB9c/bill-1.png">
+<img src="https://i.ibb.co/PcSgB9c/bill-1.png" width="700" height="700">
 
 Step 2: After Login - Search for IAM in the search bar and click on IAM in the suggestion tab
 
