@@ -15,6 +15,7 @@ Step 2: Login to AWS console
 -	Click on the EC2 in the dashboard or search for EC2 in the AWS search bar
 
 -	Click on the fcd -scraper-v1 server, we can see the Private IP 
+
 <img src="file:///C:/Users/Administrator/Pictures/pipe-5.png">
  
 Step 3: Login to server:
