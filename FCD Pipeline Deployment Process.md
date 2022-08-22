@@ -29,7 +29,7 @@
  
 <img src="https://i.ibb.co/X858dt6/pipe-5.png">
  
--	We need to SSH into the “fcd-data-pipeline” instance using OpenVPN
+# We need to SSH into the “fcd-data-pipeline” instance using OpenVPN
 
 -	We can use putty to connect the OpenVPN server, Now we need to SSH in to OpenVPN server.
 
