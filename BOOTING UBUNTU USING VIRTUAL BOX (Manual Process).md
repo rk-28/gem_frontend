@@ -6,7 +6,7 @@
 
 	ubuntu.com ----> click on downloads ----->download latest version
 
-3.now in mac, go to finder ----> application ------>virtual box
+3.now in mac go to finder ----> application ------>virtual box
 
 4.Inside virtualbox , click on new for creating a new VM for OS
 
