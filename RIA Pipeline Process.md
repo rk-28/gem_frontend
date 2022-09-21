@@ -20,7 +20,7 @@ Step 2: Login to AWS console
  
 Step 3: Login to server:
 
--Use that private IP to login to the server using putty with the respective private key
+-Use tha pragadeeshwarant private IP to login to the server using putty with the respective private key
 
 IP: 10.0.10.30   → private IP of scraper v1 server
 Username: ubuntu 
