@@ -1,0 +1,9 @@
+- name: Jira Find issue key
+  # You may pin to the exact commit or the version.
+  # uses: atlassian/gajira-find-issue-key@7d9cbdfce900a0fcf608050ce728620a928be8b6
+  uses: atlassian/gajira-find-issue-key@v3
+  with:
+    # Provide a string to extract issue key from
+    string: 
+    # Find from predefined place (should be either 'branch', or 'commits')
+    from: branch
