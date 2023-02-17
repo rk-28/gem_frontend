@@ -24,12 +24,12 @@ jobs:
 
     - name: Find Issue Key
       id: find
-      uses: ./
+      uses: atlassian/gajira-find-issue-key@v3
       with:
         string: Search is performed in this string. FIND-1 will be found
 
     - name: Find Issue Key
-      uses: ./
+      uses: atlassian/gajira-find-issue-key@v3
       with:
         string: ${{ github.event.ref }} will search in branch name
 
