@@ -20,7 +20,7 @@ jobs:
     - name: Find Issue Key
       uses: ./
       with:
-        from: commits
+        from: branch
 
     - name: Find Issue Key
       id: find
