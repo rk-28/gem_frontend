@@ -1,12 +1,15 @@
 on: push
 
-name: Jira Example
+name: Test Find Issue Key
 
 jobs:
-  build:
+  test-find-issue-key:
+    name: Find Issue Key
     runs-on: ubuntu-latest
-    name: Jira Example
     steps:
+    - name: Checkout
+      uses: actions/checkout@master
+
     - name: Login
       uses: atlassian/gajira-login@v3
       env:
@@ -14,11 +17,25 @@ jobs:
         JIRA_USER_EMAIL: ${{ secrets.JIRA_USER_EMAIL }}
         JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}
 
-    - name: Jira TODO
-      uses: atlassian/gajira-todo@v3
+    - name: Find Issue Key
+      uses: ./
       with:
-        project: GA
-        issuetype: Task
-        description: Created automatically via GitHub Actions
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        from: commits
+
+    - name: Find Issue Key
+      id: find
+      uses: ./
+      with:
+        string: Search is performed in this string. FIND-1 will be found
+
+    - name: Find Issue Key
+      uses: ./
+      with:
+        string: ${{ github.event.ref }} will search in branch name
+
+    - name: should skip if working, or else error out
+      if: ${{ steps.find.outputs.issue == '' }}
+      run: echo "Issue not found" && exit 1
+
+    - name: Find issue info
+      run: echo "Issue ${{ steps.find.outputs.issue }} was found"
