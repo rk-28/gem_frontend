@@ -1,6 +1,6 @@
 name: Push commit
 on:
-  push:
+  p.ush:
     branches:
       - 'main'
 
