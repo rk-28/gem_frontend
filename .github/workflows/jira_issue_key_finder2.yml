@@ -29,7 +29,7 @@ jobs:
 
     - name: should skip if working, or else error out
       if: ${{ steps.find.outputs.issue == '' }}
-      run: echo "Issue not found" && exit 1
+      run: echo "Issue not found" && exit 12
 
     - name: Find issue info
       run: echo "Issue ${{ steps.find.outputs.issue }} was found"
