@@ -1,6 +1,6 @@
 on: push
 
-name: Test Find Issue Key
+name: Test Find Issue Keys
 
 jobs:
   test-find-issue-key:
