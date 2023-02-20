@@ -1,0 +1,62 @@
+name: Jira Checkers
+on:
+  pull_request:
+    types: [opened, synchronize]
+jobs:
+  jira-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Parse issue key
+        id: parse-issue-key
+        run: echo "::set-output name=issue_key::$(echo ${GITHUB_HEAD_REF:-$GITHUB_REF} | grep -oP '(?<=^|/)([A-Z]+-\d+)(?=[^/]*$)')"
+      - name: Check if issue key exists
+        if: steps.parse-issue-key.outputs.issue_key != ''
+        run: echo "Issue key found:${{ steps.parse-issue-key.outputs.issue_key }}"
+        env:
+          JIRA_BASE_URL: ${{ secrets.JIRA_BASE_URL }}
+          JIRA_USER_EMAIL: ${{ secrets.JIRA_USER_EMAIL }}
+          JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}
+          JIRA_PROJECT_KEY: 'MYPROJECT'
+      - name: Validate Jira issue
+        if: steps.parse-issue-key.outputs.issue_key != ''
+        uses: svenfuchs/jira-issue-validator@v1
+        with:
+          jira-base-url: ${{ secrets.JIRA_BASE_URL }}
+          jira-user-email: ${{ secrets.JIRA_USER_EMAIL }}
+          jira-api-token: ${{ secrets.JIRA_API_TOKEN }}
+          jira-project-key: 'MYPROJECT'
+          jira-issue-key: ${{ steps.parse-issue-key.outputs.issue_key }}
+      - name: Check fix version
+        if: steps.parse-issue-key.outputs.issue_key != ''
+        run: |
+          fix_version=$(curl -s -u "${{ secrets.JIRA_USER_EMAIL }}:${{ secrets.JIRA_API_TOKEN }}" \
+              "${{ secrets.JIRA_BASE_URL }}/rest/api/2/issue/${{ steps.parse-issue-key.outputs.issue_key }}?fields=fixVersions" \
+              | jq -r '.fields.fixVersions[0].name')
+          if [ "$fix_version" = "null" ]; then
+              echo "Fix version not found for ${{ steps.parse-issue-key.outputs.issue_key }}"
+              exit 1
+          else
+              echo "Fix version found: $fix_version"
+          fi
+        env:
+          JIRA_BASE_URL: ${{ secrets.JIRA_BASE_URL }}
+          JIRA_USER_EMAIL: ${{ secrets.JIRA_USER_EMAIL }}
+          JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}
+      - name: Check issue status
+        if: steps.parse-issue-key.outputs.issue_key != ''
+        run: |
+          issue_status=$(curl -s -u "${{ secrets.JIRA_USER_EMAIL }}:${{ secrets.JIRA_API_TOKEN }}" \
+              "${{ secrets.JIRA_BASE_URL }}/rest/api/2/issue/${{ steps.parse-issue-key.outputs.issue_key }}?fields=status" \
+              | jq -r '.fields.status.name')
+          if [ "$issue_status" != "In Progress" ] && [ "$issue_status" != "To Do" ]; then
+              echo "Issue is not in 'In Progress' or 'To Do' status"
+              exit 1
+          else
+              echo "Issue status is '$issue_status'"
+          fi
+        env:
+          JIRA_BASE_URL: ${{ secrets.JIRA_BASE_URL }}
+          JIRA_USER_EMAIL: ${{ secrets.JIRA_USER_EMAIL }}
+          JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}
