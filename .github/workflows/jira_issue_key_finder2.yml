@@ -4,7 +4,7 @@ name: Test Find Issue Keys
 
 jobs:
   test-find-issue-key:
-    name: Find Issue Key
+    name: Find Issue Keys
     runs-on: ubuntu-20.04
     steps:
     - name: Checkout
