@@ -3,7 +3,7 @@ name: JIRA and Confluence Workflow
 on: 
   pull_request:
     branches:
-      - test
+      - main
 
 jobs:
   build:
